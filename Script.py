@@ -27,7 +27,7 @@ After payed send me screenshot in WhatsApp. Afte u get ads free movies files.
 🪅 Telegram: @STThamizhan
 
 
- Ads free user get movies files like- <a href='https://t.me/st_movie_upadate/1917'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
+ Ads free user get movies files like- <a href='https://t.me/st_movie_upadate'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 
 
 Developer - <a href='https://t.me/STThamizhan'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
