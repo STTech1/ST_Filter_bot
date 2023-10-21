@@ -26,7 +26,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/st_search_group"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/st_movie_upadate')
+                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Update', url='https://t.me/+Q38JN3QQTWw2YTU1')
                 ],[
                   InlineKeyboardButton('💌 Ads_Free 💌', callback_data='source')
                 ],[
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔰 Master', url="http://t.me/STThamizhan"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/st_search_group')
+                    InlineKeyboardButton('🪅 Movie Update', url="https://t.me/+Q38JN3QQTWw2YTU1"),
+                    InlineKeyboardButton('⌬ Support Gʀᴏᴜᴘ', url='https://t.me/st_search_group')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
@@ -58,7 +58,7 @@ async def start(client, message):
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
+        m=await message.reply_sticker("CAACAgIAAxkBAAEJ5F9kyqEUXtzP1kD-qKOyZPDTwyBq2QACVAADQbVWDGq3-McIjQH6LwQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -167,7 +167,7 @@ async def start(client, message):
                                 InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="http://t.me/STThamizhan")
                             ],
                             [
-                                InlineKeyboardButton('Ads_Free', callback_data=f'source') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -188,7 +188,7 @@ async def start(client, message):
                        ],[
                           InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
                          ],[ 
-                            InlineKeyboardButton('Ads_Free', url=f'source') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -348,7 +348,7 @@ async def start(client, message):
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="https://t.me/c/1882240676/1958")
                      ],
                      [
-                        InlineKeyboardButton('Ads_Free', callback_data=f'source') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -408,14 +408,14 @@ async def start(client, message):
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
                      ],
                      [
-                        InlineKeyboardButton('Ads_Free', callback_data=f'source') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@st_movie_upadate  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -429,7 +429,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@st_movie_upadate  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = '  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -439,7 +439,7 @@ async def start(client, message):
             logger.exception(e)
             f_caption=f_caption
     if f_caption is None:
-        f_caption = f"@VJ_Bots  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
+        f_caption = f"  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
@@ -464,7 +464,7 @@ async def start(client, message):
               InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
              ],
              [
-              InlineKeyboardButton('Ads_Free', callback_data=f'source') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
