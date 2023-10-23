@@ -26,7 +26,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/st_search_group"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Update', url='https://t.me/+Q38JN3QQTWw2YTU1')
+                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Update', url='https://t.me/+9Ycm9FYDp803MGY1')
                 ],[
                   InlineKeyboardButton('💌 Ads_Free 💌', callback_data='source')
                 ],[
@@ -47,7 +47,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🪅 Movie Update', url="https://t.me/+Q38JN3QQTWw2YTU1"),
+                    InlineKeyboardButton('🪅 Movie Update', url="https://t.me/+9Ycm9FYDp803MGY1"),
                     InlineKeyboardButton('⌬ Support Gʀᴏᴜᴘ', url='https://t.me/st_search_group')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
