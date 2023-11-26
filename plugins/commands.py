@@ -329,7 +329,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 btn = [[
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Verify ⁉️', url='https://t.me/c/1882240676/2008')
+                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Verify ⁉️', url='https://t.me/stshortener/3')
                 ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
@@ -393,7 +393,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 btn = [[
-                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Verify ⁉️', url="https://t.me/c/1882240676/2008")
+                    InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Verify ⁉️', url="https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
