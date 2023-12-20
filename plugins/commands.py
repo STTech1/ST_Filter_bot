@@ -167,7 +167,7 @@ async def start(client, message):
                                 InlineKeyboardButton('🇮🇳 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="http://t.me/STThamizhan")
                             ],
                             [
-                                InlineKeyboardButton('🎉 Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -188,7 +188,7 @@ async def start(client, message):
                        ],[
                           InlineKeyboardButton("🇮🇳 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
                          ],[ 
-                            InlineKeyboardButton('🪅 Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -351,7 +351,7 @@ async def start(client, message):
                       InlineKeyboardButton("🇮🇳 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
                      ],
                      [
-                        InlineKeyboardButton('🎇 Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -414,7 +414,7 @@ async def start(client, message):
                       InlineKeyboardButton("🇮🇳 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
                      ],
                      [
-                        InlineKeyboardButton('🧩 Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -470,7 +470,7 @@ async def start(client, message):
               InlineKeyboardButton("🇮🇳 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="http://t.me/STThamizhan")
              ],
              [
-              InlineKeyboardButton('🫰 Ads_Free', url=f'https://telegra.ph/Ads-Free-10-21') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
