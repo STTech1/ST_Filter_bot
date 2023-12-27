@@ -326,7 +326,8 @@ async def start(client, message):
                 f_caption = f"{' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files1.file_name.split()))}"
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[[
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url="https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
@@ -388,8 +389,9 @@ async def start(client, message):
         try:
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
-                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url="https://t.me/stshortener/3")
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[[
+                    InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
