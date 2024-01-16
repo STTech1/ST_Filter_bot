@@ -295,7 +295,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url="https://t.me/c/1882240676/2008")
+                        InlineKeyboardButton('⁉️ 𝘏𝘰𝘸 𝘛𝘰 𝘝𝘦𝘳𝘪𝘧𝘺 ✓ ⁉️', url="https://t.me/c/1531110341/49")
                     ]
                 ]
             )
@@ -374,7 +374,7 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
-                            InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url="https://t.me/c/1882240676/2008")
+                            InlineKeyboardButton('⁉️ 𝘏𝘰𝘸 𝘛𝘰 𝘝𝘦𝘳𝘪𝘧𝘺 ✓ ⁉️', url="https://t.me/c/1531110341/49")
                         ]
                     ]
                 )
