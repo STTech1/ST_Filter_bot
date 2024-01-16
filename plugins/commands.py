@@ -397,6 +397,7 @@ async def start(client, message):
                     text="<b>You are not verified !\nKindly verify to continue !</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
+                    InlineKeyboardButton('𝘏𝘰𝘸 𝘛𝘰 𝘝𝘦𝘳𝘪𝘧𝘺 ✓', url="https://t.me/c/1531110341/49")
                 )
                 return
             await client.send_cached_media(
