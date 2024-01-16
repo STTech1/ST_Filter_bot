@@ -374,7 +374,7 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
-                            InlineKeyboardButton('⁉️ 𝘏𝘰𝘸 𝘛𝘰 𝘝𝘦𝘳𝘪𝘧𝘺 ✓ ⁉️', url="https://t.me/c/1531110341/49")
+                            InlineKeyboardButton('⁉️ Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ ⁉️', url="https://t.me/c/1531110341/49")
                         ]
                     ]
                 )
