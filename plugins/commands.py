@@ -331,6 +331,8 @@ async def start(client, message):
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 utn = [[
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[[
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
@@ -398,6 +400,8 @@ async def start(client, message):
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 utn = [[
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[[
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
@@ -459,6 +463,8 @@ async def start(client, message):
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 utn = [[
+                    InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+                ]],[[
                     InlineKeyboardButton("⁉️ Hᴏᴡ Tᴏ Verify ⁉️", url=f"https://t.me/stshortener/3")
                 ]]
                 await message.reply_text(
