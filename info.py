@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://st-thamizhan.onrender.com/".format(FQDN)
+    URL = "https://willowy-caterina-renderst.koyeb.app/".format(FQDN)
 else:
-    URL = "https://st-thamizhan.onrender.com/".format(FQDN)
+    URL = "https://willowy-caterina-renderst.koyeb.app/".format(FQDN)
 
 
 
