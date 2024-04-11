@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://teamuhd.22eea42.workers.dev/0:/photo_2024-04-11_15-23-15_7356630462781441024.jpg" widh="50" hight="500" alt="ST✓-bot Logo">
+  <img src="https://teamuhd.22eea42.workers.dev/0:/photo_2024-04-11_15-23-15_7356630462781441024.jpg" alt="ST✓-bot Logo">
 </p>
 <h1 align="center">
   ST✓ FILTER BOT
@@ -173,13 +173,10 @@ python3 bot.py
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To VJ For His Awesome [Media-Search-bot](https://github.com/VJBots)
- - Thanks To [Tech VJ](https://youtube.com/@Tech_VJ) 
- - Thanks To All Everyone In This Journey
 
 ## Note 🏷️
  
-* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/VJ_Bots)
+* [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/ST_thamizhan)
 * * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/kingvj01)
 
 [Note To A So Called Dev](https://telegram.dog/vj_botz): 
