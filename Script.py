@@ -14,7 +14,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Heroku</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
-    Donate_TXT = """
+    DONATE_TXT = """
 <b>Hi guys, if u want improve our service please share your comments in update channel share and support us by ST✓ Thamizhan.
 
 Gpay ID : sunilthevan.j.s.p.s-1@okaxis
