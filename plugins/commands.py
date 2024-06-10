@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('🫂 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/ST_movies_seaech"),
                     InlineKeyboardButton('🎬 Mᴏᴠɪᴇ Update', url='https://t.me/+NUm-fEciznpiZDZk')
                 ],[
-                  InlineKeyboardButton('💌 Ads_Free 💌', callback_data='source')
+                  InlineKeyboardButton('💌 Donate 💌', callback_data='Donate')
                 ],[
                     InlineKeyboardButton('✇ Anime Lover Join here ✇', url='https://t.me/AnimeSigma_Movies')
                   ]]
