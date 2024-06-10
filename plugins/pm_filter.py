@@ -1364,7 +1364,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share'), 
              InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song') 
          ], [
-             InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='shortlink_info'),
              InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
              InlineKeyboardButton('ᴊ-ꜱᴏɴ', callback_data='json'),  
          ], [             
@@ -1384,7 +1383,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
+            InlineKeyboardButton('Donate', callback_data='Donate')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -1571,35 +1570,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "shortlink_info":
-            btn = [[
-                InlineKeyboardButton("👇Select Your Language 👇", callback_data="laninfo")
-        ], [
-            InlineKeyboardButton("Tamil", callback_data="tamil_info"),
-            InlineKeyboardButton("English", callback_data="english_info"),
-            InlineKeyboardButton("Hindi", callback_data="hindi_info")
-        ], [
-            InlineKeyboardButton("Malayalam", callback_data="malayalam_info"),
-            InlineKeyboardButton("Urdu", callback_data="urdu_info"),
-            InlineKeyboardButton("Bangla", callback_data="bangladesh_info")
-        ], [
-            InlineKeyboardButton("Telugu", callback_data="telugu_info"),
-            InlineKeyboardButton("Kannada", callback_data="kannada_info"),
-            InlineKeyboardButton("Gujarati", callback_data="gujarati_info"),
-            InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start")
-
-            ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.SHORTLINK_INFO),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+    
     elif query.data == "tele":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
