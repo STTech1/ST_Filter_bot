@@ -53,7 +53,7 @@ async def start(client, message):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                  InlineKeyboardButton('Feed back', callback_data='source')
+                  InlineKeyboardButton('Donate', callback_data='Donate')
                 ],[
                     InlineKeyboardButton('✇ Anime Lover Join here ✇', url='https://t.me/AnimeSigma_Movies')
                   ]]
@@ -107,7 +107,7 @@ async def start(client, message):
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                  InlineKeyboardButton('Feed back', callback_data='source')
+                  InlineKeyboardButton('Donate', callback_data='Donate')
                 ],[
                     InlineKeyboardButton('✇ Anime Lover Join here ✇', url='https://t.me/AnimeSigma_Movies')
                   ]]
