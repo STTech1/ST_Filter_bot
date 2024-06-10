@@ -15,19 +15,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
-<b>Hᴇʏ, u want to ads free movies direct files.
-
-🌟 Pay 25 Rs For 1 month. 
-🌟 Pay 60 Rs For 3 month 15% discount.
-🌟 pay 115 Rs For 6 month 30% discount.
-
-After payed send me screenshot in WhatsApp. Afte u get ads free movies files.
+<b>Hi guys, if u want improve our service please share your comments in update channel share and support us by ST✓ Thamizhan
 
 🇮🇳 WhatsApp Number: 7092891510
 🪅 Telegram: @STThamizhan
-
-
- Ads free user get movies files like- <a href='https://t.me/st_movie_upadate'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>
 
 
 Developer - <a href='https://t.me/STThamizhan'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
@@ -204,8 +195,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>
+<b>🔉 Audio</b> : <b>{languages}</b>
 <b> Size ⚙️: {file_size}</b>""" 
 
     IMDB_TEMPLATE_TXT = """
