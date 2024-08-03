@@ -179,7 +179,7 @@ python3 bot.py
 * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/ST_thamizhan)
 * * [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://telegram.me/kingvj01)
 
-[Note To A So Called Dev](https://telegram.dog/vj_botz): 
+[Note To A So Called Dev](https://telegram.dog/STThamizhan): 
 
 Fork the repo and edit as per your needs.
 
