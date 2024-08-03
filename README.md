@@ -124,7 +124,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJBots/VJ-Filter-BotAuto-branch=Tech_VJ&name=VJ-Filter-bot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://github.com/STTech1/ST_Filter_bot-branch=STTech_ST&name=ST-Filter-bot)
 </details>
 
 <details><summary>Deploy To Render</summary>
