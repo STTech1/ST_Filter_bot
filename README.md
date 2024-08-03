@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://teamuhd.22eea42.workers.dev/0:/photo_2024-04-11_15-23-15_7356630462781441024.jpg" alt="ST✓-bot Logo">
+  <img src="https://gopani9-my.sharepoint.com/personal/st_gopani9_onmicrosoft_com/_layouts/15/download.aspx?share=EZKO_Dy0uFpGi2Yy86jtVqUBhuqDhVQDPIC0yhnCtvvrew" alt="ST✓-bot Logo">
 </p>
 <h1 align="center">
   ST✓ FILTER BOT
